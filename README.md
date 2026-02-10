@@ -3,7 +3,7 @@
 
 This project demonstrates a systematic approach to improving Large Language Model (LLM) reliability through structured prompt engineering, empirical testing, and production-style validation pipelines.
 
-The project was developed as part of an AI consulting scenario where a company’s chatbot produced inconsistent outputs across multiple tasks. The objective was to diagnose failure modes and improve reliability through iteration, structure, and evaluation.
+The project was developed where a company’s chatbot produced inconsistent outputs across multiple tasks. The objective was to diagnose failure modes and improve reliability through iteration, structure, and evaluation.
 
 ---
 
@@ -112,5 +112,6 @@ prompt_engineering_lab.ipynb
 
 April Atkinson  
 AI GTM & Governance Consultant
+
 
 
