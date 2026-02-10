@@ -97,21 +97,50 @@ Structured JSON Output
 └── README.md
 
 ---
+## Quick Start
 
-## How to Run
+Run a full reliability test and report with one command:
+
+```bash
+python run.py
+This will:
+
+Execute multiple LLM runs for the same prompt
+
+Validate outputs against task constraints
+
+Save structured results to /results
+
+Generate a reliability report
+Latest results: results/product_v1_5runs_20260210_165619.json
+Task: product | Version: v1 | Model: gpt-4o-mini
+Runs: 5
+Valid: 5
+Invalid: 0
+Not validated: 0
+Reliability score: 100.0/100
+Unique outputs: 2/5
+
+
+Example output:
+
+## How to Run prompt_engineering_lab.ipynb
 
 1. Create a virtual environment
 2. Install dependencies
 3. Add your OpenAI API key to `.env`
 4. Run the notebook:
-prompt_engineering_lab.ipynb
+
 
 ---
+
+
 
 ## Author
 
 April Atkinson  
 AI GTM & Governance Consultant
+
 
 
 
