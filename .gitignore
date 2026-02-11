@@ -2,3 +2,7 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
+
+# Local artifacts
+results/*.json
+*.egg-info/
